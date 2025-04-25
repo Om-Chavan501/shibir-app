@@ -1,0 +1,67 @@
+frontend/
+│
+├── public/
+│   ├── favicon.ico
+│   ├── images/
+│   │   └── science-hero.png
+│   └── avatars/
+│       ├── student1.jpg
+│       ├── parent1.jpg
+│       └── teacher1.jpg
+│
+├── src/
+│   ├── components/
+│   │   ├── auth/
+│   │   │   ├── AdminRoute.jsx
+│   │   │   └── PrivateRoute.jsx
+│   │   │
+│   │   ├── common/
+│   │   │   ├── ErrorMessage.jsx
+│   │   │   ├── EmptyState.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   └── LoadingSpinner.jsx
+│   │   │
+│   │   └── workshops/
+│   │       ├── WorkshopCard.jsx
+│   │       └── WorkshopCarousel.jsx
+│   │
+│   ├── contexts/
+│   │   ├── AuthContext.jsx
+│   │   └── SnackbarContext.jsx
+│   │
+│   ├── layouts/
+│   │   ├── MainLayout.jsx
+│   │   └── DashboardLayout.jsx
+│   │
+│   ├── pages/
+│   │   ├── admin/
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── Registrations.jsx
+│   │   │   ├── Users.jsx
+│   │   │   ├── Workshops.jsx
+│   │   │   └── WorkshopForm.jsx
+│   │   │
+│   │   ├── user/
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── Profile.jsx
+│   │   │   └── Registrations.jsx
+│   │   │
+│   │   ├── Home.jsx
+│   │   ├── Login.jsx
+│   │   ├── Register.jsx
+│   │   ├── Registration.jsx
+│   │   ├── WorkshopDetail.jsx
+│   │   └── WorkshopList.jsx
+│   │
+│   ├── services/
+│   │   └── api.js
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── theme.js
+│
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+└── vite.config.js

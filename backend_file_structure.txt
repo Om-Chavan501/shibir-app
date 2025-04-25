@@ -1,0 +1,29 @@
+backend/
+│
+├── app/
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── user.py
+│   │   ├── workshop.py
+│   │   ├── registration.py
+│   │   └── testimonial.py
+│   │
+│   ├── routes/
+│   │   ├── __init__.py
+│   │   ├── auth.py
+│   │   ├── users.py
+│   │   ├── workshops.py
+│   │   ├── registrations.py
+│   │   └── admin.py
+│   │
+│   ├── utils/
+│   │   ├── __init__.py
+│   │   ├── auth.py
+│   │   ├── db.py
+│   │   └── email.py
+│   │
+│   └── __init__.py
+│
+├── .env
+├── main.py
+└── requirements.txt
